@@ -5,7 +5,6 @@
 describe("Test Suite",function(){
     it("1st test case",function(){
         cy.visit("https://hub.urbanledger.app/")
-        //cy.pause()
         cy.get('.css-tlfecz-indicatorContainer').click()
         cy.get('#react-select-2-option-0').click()
         cy.get('.mobile-number').click().type('9967100101')
